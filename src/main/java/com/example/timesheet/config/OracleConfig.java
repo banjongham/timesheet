@@ -14,9 +14,9 @@ public class OracleConfig {
     @Bean
     public DataSource dataSource() throws SQLException {
         OracleDataSource dataSource = new OracleDataSource();
-        dataSource.setUser("TIS_DEV");
-        dataSource.setPassword("T!sD3v9n#M");
-        dataSource.setURL("jdbc:oracle:thin:@//192.168.34.160:1751/urosdb");
+        dataSource.setUser("xxx");
+        dataSource.setPassword("xxxx");
+        dataSource.setURL("jdbc:oracle:thin:@//localhost/db");
         dataSource.setFastConnectionFailoverEnabled(true);
         dataSource.setImplicitCachingEnabled(true);
         dataSource.setConnectionCachingEnabled(true);
